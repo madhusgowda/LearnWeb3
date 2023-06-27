@@ -1,0 +1,7 @@
+{
+  "name": "LearnWeb3",
+  "version": "1.0.0",
+  "dependencies": {
+    "ethers": "^6.6.1"
+  }
+}

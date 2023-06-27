@@ -1,0 +1,22 @@
+<script src="https://cdn.ethers.io/lib/ethers-5.7.2.umd.min.js" type="application/javascript"></script>
+<script src="./favNumber.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LearnWeb3 First dApp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div>
+    <h1>This is my 1st dApp!</h1>
+    <p>Here we can set or get the favorite number:</p>
+    <label for="number">Input Number:</label> <br />
+    <input type="text" id="number" />
+
+    <button onclick="getNumber()">Get Number</button>
+    <button onclick="setNumber()">Set Number</button>
+    <p id="showNumber"></p>
+</div>
+</body>
+</html>
